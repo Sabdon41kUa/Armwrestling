@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url(image\ 1.png) no-repeat bottom center/cover;
+    background: url(imgs/image\ 1.png) no-repeat bottom center/cover;
     height: 720px;
     display: flex;
     justify-content: center;
@@ -22,44 +22,20 @@ header {
 }
 
 .header-content button {
-position: absolute;
-width: 454px;
-height: 60px;
-left: calc(50% - 454px/2);
-top: 0px;
-
-background: #FFFFFF;
-border-radius: 80px;
-
-
-/* Інформація */
-
-position: absolute;
-width: 151px;
-height: 27px;
-left: calc(50% - 151px/2 - 0.5px);
-top: 20px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-
-    /*background-color: white;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;*/
+    width: 454px;
+    height: 60px;
+    left: calc(50% - 454px/2);
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.18px;
 }
 
+
 main {
+    height: 1320px;
     padding: 40px 20px;
     background-color: #2c2c2c;
 }
@@ -86,25 +62,59 @@ main {
 }
 
 .school-competition, .youth-competition {
-    background-color: #3e3e3e;
+    background: #00000096;
     padding: 35px;
     border-radius: 10px;
+    border: 1px solid #FFFFFF;
     width: 40%;
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.school-competition {
+    margin-top: 424px;
+}
+
+.youth-competition {
+    margin-bottom: auto;
+}
+
 .school-competition h3, .youth-competition h3 {
-    font-size: 28px;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 65.74px;
+    text-align: center;
+    margin: 0px;
     margin-bottom: 10px;
 }
 
-.school-competition p, .youth-competition p, .school-competition ul, .youth-competition ul {
-    font-size: 18px;
-    line-height: 1.6;
+.info {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30.52px;
+    text-align: left;
 }
 
+.inf {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    text-align: center;
+}
 
+.reg {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35.22px;
+    text-align: left;
+}
+
+.school-competition ul, .youth-competition ul {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30.52px;
+    text-align: left;
+}
 
 .weight-categories {
     display: flex;
@@ -112,8 +122,11 @@ main {
 }
 
 .category h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37.57px;
+    text-align: center;
+    margin: 0;
 }
 
 .category ul {
