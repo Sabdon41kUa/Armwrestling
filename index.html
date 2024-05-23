@@ -5,37 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Змагання з Армрестлінгу</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-content">
             <h1>Змагання з Армрестлінгу</h1>
-            <button>Інформація</button>
+            <button onclick="location.href='#target-element'">Інформація</button>
         </div>
     </header>
-    <main>
+    <main id="target-element">
         <section class="open-competition">
                 <h2>Відкриті змагання з армреслінгу</h2>
             <div class="competitions">
                 <div class="school-competition">
                     <h3>Шкільні змагання</h3>
-                    <p>Детальніша інформація:</p>
-                    <ul>
-                        <li>Загальна кількість шкіл - 4 школи.</li>
-                        <li>З кожної школи має бути 1 команда, яка буде начислювати:
+                    <p class="inf">Детальніша інформація:</p>
+                        <p class="info">Загальна кількість шкіл - 4 школи. З кожної школи має бути 1 команда яка буде складатися з:</p>
                             <ul>
                                 <li>3 хлопця</li>
                                 <li>1 дівчина</li>
                             </ul>
-                        </li>
-                        <li>Реєстрація буде відбуватися на місці</li>
-                    </ul>
+                        <p class="reg">Реєстрація буде відбуватися на місці</p>
                     <div class="event-details">
                     </div>
                 </div>
                 <div class="youth-competition">
                     <h3>Змагання серед юнаків</h3>
-                    <p>Вагові категорії:</p>
+                    <p class="inf">Вагові категорії:</p>
                     <div class="weight-categories">
                         <div class="category">
                             <h4>Чоловіки</h4>
@@ -53,7 +52,7 @@
                             </ul>
                         </div>
                     </div>
-                    <p>Реєстрація буде відбуватися на місці</p>
+                    <p class="reg">Реєстрація буде відбуватися на місці</p>
                 </div>
                 <div class="event-details">
                     <p>Дата проведення - Не відомо</p>
@@ -66,5 +65,6 @@
         <p>Спонсори</p>
         <img src="sponsor-logo.png" alt="Спонсор">
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
